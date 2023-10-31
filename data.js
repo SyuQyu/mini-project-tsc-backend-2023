@@ -1,9 +1,11 @@
-// data.js
-const libraryData = [
-    { title: "Buku 1", author: "Penulis 1" },
-    { title: "Buku 2", author: "Penulis 2" },
-    { title: "Buku 3", author: "Penulis 3" },
-    // Tambahkan data buku lainnya sesuai kebutuhan
-];
 
-module.exports = libraryData;
+const books = [
+    { id: 1, title: 'Avenger', author: 'Catur' },
+    { id: 2, title: 'Avatar', author: 'Suharto' },
+    { id: 3, title: 'Upin&Ipin', author: 'Adit'},
+    { id: 4, title: 'Iron Man', author: 'Mursid'},
+    { id: 5, title: 'Ultraman', author: 'Evan'},
+  ];
+  
+  module.exports = { books };
+  
